@@ -1,0 +1,9 @@
+cara install & menjalankan program:
+1. terlebih dahulu jalankan server mysql di laptop/komputer anda
+2. ekstrak file zip nya
+3. masuk kedalam foldernya & install dependency nya dengan mengetikkan perintah [npm install] di terminal/cmd
+4. copy file '.env.example' kemudian paste & ganti namanya jadi '.env'
+5. isi file environment variable tsb (.env) sesuai dengan konfigurasi pada laptop/komputer anda
+6. buat database baru dengan mengetikkan perintah [npx sequelize-cli db:create] di terminal/cmd
+7. generate tabel di database yg baru tadi di buat dengan mengetikkan perintah [npx sequelize-cli db:migrate] di terminal/cmd
+8. terakhir jalankan code nya dengan mengetikkan perintah [npm run start:dev] di terminal/cmd
