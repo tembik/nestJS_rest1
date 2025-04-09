@@ -1,0 +1,11 @@
+npm install mysql2
+npm install sequelize
+npm install sequelize-cli
+npm install @nestjs/sequelize sequelize-typescript
+npm install @types/sequelize
+npm install @nestjs/config
+npm install dotenv
+
+nest g module [name]
+nest g controller [name]
+nest g service [name]

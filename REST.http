@@ -1,0 +1,64 @@
+# penjual API
+###
+GET http://localhost:4000/api/user
+
+###
+
+GET http://localhost:4000/api/user/6
+
+###
+
+POST http://localhost:4000/api/user
+Content-Type: application/json
+
+{
+    "nama":"udin",
+    "alamat":"surabaya"
+}
+
+###
+
+PUT http://localhost:4000/api/user/6
+Content-Type: application/json
+
+{
+    "nama":"andi",
+    "alamat":"malang"
+}
+
+###
+DELETE http://localhost:4000/api/user/6
+
+
+#produk API
+###
+
+GET http://localhost:4000/api/produk
+
+###
+
+GET http://localhost:4000/api/produk/7
+
+###
+
+POST http://localhost:4000/api/produk
+Content-Type: application/json
+
+{
+    "nama":"panci",
+    "deskripsi":"ini adalah panci",
+    "penjualId": 6
+}
+
+###
+
+PUT http://localhost:4000/api/produk/7
+Content-Type: application/json
+
+{
+    "nama":"pulpen",
+    "deskripsi":"ini adalah pulpen"
+}
+
+###
+DELETE http://localhost:4000/api/produk/6
